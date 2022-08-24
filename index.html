@@ -1,0 +1,33 @@
+<html>
+    <body bgcolor="#000011" style="text-align:center">
+        <h1 style="color:rgb(144, 192, 255)">calc</h1>
+        <p style="color:rgb(101, 127, 161)">弹窗式中文计算器</p>
+        <div>
+            <script>
+                window.alert("简易计算器")
+                var nus=prompt("请输入数")
+                var abc=10000
+                var nus2=prompt("请输入第二个数")
+                var num=Number(nus)
+                var num2=Number(nus2)
+                var s=prompt("请输入加 减 乘或除，输入其他无效")
+                if(s=="加"){
+                    alert(num+num2)
+                }
+                else{
+                    if(s=="减"){
+                        alert(num - num2)
+                    }
+                    else{
+                        if(s=="乘"){
+                            alert(num*num2)
+                        }
+                        else{
+                            alert(num/num2)
+                        }
+                    }
+                }
+            </script>
+        </div>
+    </body>
+</html>
